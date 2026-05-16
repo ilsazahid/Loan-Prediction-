@@ -7,14 +7,14 @@ import numpy as np
 # LOAD MODEL
 # ============================================================
 
-with open("/content/loan_model.pkl", "rb") as f:
+with open("loan_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # ============================================================
 # LOAD SCALER
 # ============================================================
 
-with open("/content/loan_scaler.pkl", "rb") as f:
+with open("loan_scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
 
 # ============================================================
